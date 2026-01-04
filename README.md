@@ -1,6 +1,6 @@
 # SQIsign Visualization Library
 
-This repository contains educational animations explaining the SQIsign post-quantum signature scheme using the [Manim](https://www.manim.community/) animation library.
+This repository contains educational animations explaining the SQIsign post-quantum signature scheme using the [Manim](https://github.com/3b1b/manim) animation library.
 
 **Purpose:** These visualizations are designed for expert review to ensure mathematical accuracy and pedagogical effectiveness. Each animation breaks down complex cryptographic concepts into intuitive visual representations.
 
