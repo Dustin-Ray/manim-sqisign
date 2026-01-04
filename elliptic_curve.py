@@ -10,6 +10,7 @@ Provides:
 
 from manim import *
 import numpy as np
+from typing import Optional
 
 
 def preset_curve(name: str) -> tuple[float, float]:
@@ -43,7 +44,7 @@ class EllipticCurveIcon(VMobject):
     def __init__(
         self,
         color: str = BLUE,
-        fill_color: str | None = None,
+        fill_color: Optional[str] = None,
         fill_opacity: float = 0.0,
         stroke_width: float = 3,
         shape: float = 1.0,
@@ -90,7 +91,7 @@ class EllipticCurveIconWithFill(VMobject):
     def __init__(
         self,
         color: str = BLUE,
-        fill_color: str | None = None,
+        fill_color: Optional[str] = None,
         fill_opacity: float = 0.3,
         stroke_width: float = 3,
         shape: float = 1.0,
@@ -258,7 +259,7 @@ class EllipticCurveWithFill(VGroup):
         x_max: float = 3,
         num_points: int = 200,
         color: str = BLUE,
-        fill_color: str | None = None,
+        fill_color: Optional[str] = None,
         fill_opacity: float = 0.3,
         stroke_width: float = 3,
         **kwargs

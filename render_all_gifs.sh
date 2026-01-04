@@ -15,7 +15,6 @@ scenes=(
     "scenes/isogeny_morphism.py:IsogenyMorphism"
     "scenes/ideal_reveal.py:IdealReveal"
     "scenes/deuring_correspondence.py:DeuringCorrespondence"
-    "scenes/dimension2.py:Dimension2Lifting"
     "scenes/dimensional_lifting.py:DimensionalLifting"
     "scenes/elliptic_curve_algebra.py:EllipticCurveAlgebra"
     "scenes/maze_metaphor.py:MazeMetaphor"

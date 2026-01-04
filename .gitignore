@@ -17,9 +17,14 @@ __pycache__/
 .Python
 
 # Manim generated media files
-media/
-# But keep the final GIF animations for README
-!media/videos/**/*.gif
+media/*
+!media/videos
+media/videos/*
+!media/videos/*/
+media/videos/*/*
+!media/videos/*/*/
+media/videos/*/*/*
+!media/videos/*/*/*.gif
 
 # IDE and editor files
 .vscode/
